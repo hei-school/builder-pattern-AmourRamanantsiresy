@@ -2,10 +2,10 @@
   "name": "builder-pattern-amourramanantsiresy",
   "version": "1.0.0",
   "description": "This is a code that will used to build Car with the builder pattern",
-  "main": "src/index.ts",
-  "type": "module",
+  "main": "src/main.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node src/main.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "@types/node": "^20.11.16",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
